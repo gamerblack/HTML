@@ -1,0 +1,33 @@
+body{
+    background-color:dimgray;
+    /*O que caralhos eu faço agora?
+    1 adição de imagem (alterado)
+    *2 repetição da imagem (retirado)
+    3 posição: centro
+    4 ?????? não tenho ideia
+    5 formatação(alinhação) de texto*/
+}
+
+h1{
+    text-align: center;
+    color:black;
+}
+
+h2{
+text-align: left;
+color:bisque;/*cor do h1 (titulo)*/
+ }
+
+p{
+    text-align: left;
+    color: brown;/*cor do p (parágrafo) */
+}
+
+ul{
+    text-align: left;
+    color:burlywood;/*cor do ul(lista) */
+}
+
+a{
+    color:blueviolet;/* cor do a(link )*/
+}
