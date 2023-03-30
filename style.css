@@ -1,5 +1,5 @@
 body{
-    background-color:dimgray;
+    background-color:dimgrey;
     /*O que caralhos eu faço agora?
     1 adição de imagem (alterado)
     *2 repetição da imagem (retirado)
@@ -8,26 +8,78 @@ body{
     5 formatação(alinhação) de texto*/
 }
 
+
+img{
+    height: 200px;
+    margin-left: 848px;
+    /*como não tem como arrumar a img já que não
+    se encaixa como texto arrumamos a margem*/
+    border-radius: 100%;
+    /*o arredondamento de borda tbm funciona em img's*/
+
+
+    /* caso tenha mais de uma img coloque a tag do lugar dps img
+    ex:
+    head img{}
+        
+    * Em caso de duas ou mais img na mesma tag adicione "classes=" no HTML e
+    quando voltar ao style coloque ".nomedaclasse" */
+}
+
+
 h1{
     text-align: center;
     color:black;
 }
 
+
 h2{
-text-align: left;
-color:bisque;/*cor do h1 (titulo)*/
+text-align: left;/*alinhamento de texto*/
+color:darkslateblue;/*cor do h2 (titulo secundário)*/
  }
+
 
 p{
     text-align: left;
-    color: brown;/*cor do p (parágrafo) */
+    color:goldenrod;/*cor do p (parágrafo) */
 }
+
 
 ul{
     text-align: left;
-    color:burlywood;/*cor do ul(lista) */
+    color:lightskyblue;/*cor do ul(lista) */
 }
 
+
 a{
-    color:blueviolet;/* cor do a(link )*/
+    color:rgb(80, 24, 133);/* cor do a(link )*/
 }
+
+
+/* "border" = borda
+    Podem ser escolhidos cor, tamanho e arredondamento(radius)
+    com "px" no final sinalizado os pixels
+
+
+    essa tag pode ser resumida de forma a executar 3 cod em 1 como:
+
+    border: solid 10px blueviolet
+    
+
+    (Apenas algumas tags fazem isso)*/
+
+
+
+    /* "font-family:" é usado para mudar a fonte
+      são usadas virgulas para segundas, terceiras e quartas opções
+                 
+
+        caso a pessoa não á tenha no computador
+          recomendado usar: "fonts.google.com" para ver fonts online
+
+
+    *Ícone do canto
+
+     HTML: Dentro da tag "head"
+
+     CSS: No elemento desejado ou em "body" para o site inteiro*/
