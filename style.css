@@ -15,15 +15,9 @@ img{
     /*como não tem como arrumar a img já que não
     se encaixa como texto arrumamos a margem*/
     border-radius: 100%;
+
     /*o arredondamento de borda tbm funciona em img's*/
 
-
-    /* caso tenha mais de uma img coloque a tag do lugar dps img
-    ex:
-    head img{}
-        
-    * Em caso de duas ou mais img na mesma tag adicione "classes=" no HTML e
-    quando voltar ao style coloque ".nomedaclasse" */
 }
 
 
@@ -33,13 +27,47 @@ h1{
 }
 
 
+nav{ 
+    background-color: darkslategrey;
+    /* A tag nav remete a navegação dentro do site ou 
+    abrindo para um site diferente */
+    /* background-color: brown; */
+}
+
+
+nav ul li{
+    background-color: blanchedalmond;
+    display:inline-block;
+    /* border-radius: 40%;  */
+}
+
+
+ /* caso tenha mais de uma img coloque a tag do lugar dps img
+    ex:
+    head img{}
+        
+    * Em caso de duas ou mais img/tag na mesma tag para esilizar adicione "classes=" no 
+    HTML e quando voltar ao style coloque ".nomedaclasse" */
+
+
+.menu{
+    display: inline-block;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+}
+
 h2{
-text-align: left;/*alinhamento de texto*/
-color:darkslateblue;/*cor do h2 (titulo secundário)*/
+    text-align: left;/*alinhamento de texto*/
+    color:darkslateblue;/*cor do h2 (titulo secundário)*/
  }
 
 
 p{
+    width: 45%;
     text-align: left;
     color:goldenrod;/*cor do p (parágrafo) */
 }
