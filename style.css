@@ -1,5 +1,6 @@
 body{
-    background-color:dimgrey;
+    /* background-color:dimgrey; */
+    background-image:url(papel.avif);
     /*O que caralhos eu faço agora?
     1 adição de imagem (alterado)
     *2 repetição da imagem (retirado)
@@ -9,25 +10,33 @@ body{
 }
 
 
-img{
+.login {
+    float: left;
     height: 200px;
-    margin-left: 848px;
+    /* margin-left: 45%; */
     /*como não tem como arrumar a img já que não
     se encaixa como texto arrumamos a margem*/
     border-radius: 100%;
+    display: inline;
 
     /*o arredondamento de borda tbm funciona em img's*/
 
 }
 
 
-h1{
+/* header{
     text-align: center;
+} */
+
+h1{
+     margin-top: 60px;
+    margin-left: 30%;
     color:black;
 }
 
 
 nav{ 
+    margin-top: 10%;
     background-color: darkslategrey;
     /* A tag nav remete a navegação dentro do site ou 
     abrindo para um site diferente */
@@ -83,6 +92,33 @@ a{
     color:rgb(80, 24, 133);/* cor do a(link )*/
 }
 
+.menu a:hover{
+    text-decoration: none;
+    color: blue;
+    background-color: brown ;
+    font-size: 20px;
+}
+/* houver= passar o mouse em cima */
+
+
+a:hover{
+    color: blueviolet;
+    /* font-size: 30px; */
+}
+
+
+footer{
+    background-color: aquamarine;
+    border-top: solid 5px green;
+    text-align: center;
+}
+
+
+.rodapé{
+    height: 150px;
+    margin-top: 7px;
+    border-radius: 100%;
+}
 
 /* "border" = borda
     Podem ser escolhidos cor, tamanho e arredondamento(radius)
