@@ -1,6 +1,14 @@
 body{
-    /* background-color:dimgrey; */
-    background-image:url(papel.avif);
+
+    background:lightgrey;
+
+    }
+
+
+header{
+    background-color:dimgrey;
+    border-radius: 10px;
+    /* background-image:url(papel.avif); */
     /*O que caralhos eu faço agora?
     1 adição de imagem (alterado)
     *2 repetição da imagem (retirado)
@@ -12,12 +20,13 @@ body{
 
 .login {
     float: left;
-    height: 200px;
-    /* margin-left: 45%; */
+    height: 190px;
+    margin-left: 10px;
+    margin-top: 10px;
     /*como não tem como arrumar a img já que não
     se encaixa como texto arrumamos a margem*/
     border-radius: 100%;
-    display: inline;
+    display: inline-flex;
 
     /*o arredondamento de borda tbm funciona em img's*/
 
@@ -29,25 +38,30 @@ body{
 } */
 
 h1{
-     margin-top: 60px;
-    margin-left: 30%;
+    display: inline-flex;
+    margin-top: 80px;
+    margin-left: 30px;
+    font:italic;
+    font-family:url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 40px;
+    text-align: left;
     color:black;
 }
 
 
 nav{ 
-    margin-top: 10%;
-    background-color: darkslategrey;
     /* A tag nav remete a navegação dentro do site ou 
     abrindo para um site diferente */
-    /* background-color: brown; */
+    background-size: 40px;
+    background-color: pink;
+    margin-top: 70px;
 }
 
 
 nav ul li{
-    background-color: blanchedalmond;
     display:inline-block;
-    /* border-radius: 40%;  */
+    padding-left: 40px;
 }
 
 
@@ -67,26 +81,43 @@ nav ul li{
 
 .menu a{
     text-decoration: none;
+    font-size: 25px;
+    /* padding-left: 40px; */
 }
 
 h2{
     text-align: left;/*alinhamento de texto*/
-    color:darkslateblue;/*cor do h2 (titulo secundário)*/
+    color:lightseagreen;/*cor do h2 (titulo secundário)*/
  }
 
 
 p{
-    width: 45%;
+    width: 50%; /*até onde da tela o texto chega */
     text-align: left;
-    color:goldenrod;/*cor do p (parágrafo) */
+    color:lightcyan;/*cor do p (parágrafo) */
 }
 
 
-ul{
+/* ul{
     text-align: left;
-    color:lightskyblue;/*cor do ul(lista) */
+    color:lightskyblue;cor do ul(lista) 
+}*/
+
+.receita {
+    color:darkslateblue;
+    font-size: 30px;
 }
 
+
+.limão {
+    height: 350px;
+    float:right;
+    float: inline-start;
+    border-radius: 40px;
+    border-right: solid 5px greenyellow;
+    margin-right: 30px;
+    margin-top: 100px;
+}
 
 a{
     color:rgb(80, 24, 133);/* cor do a(link )*/
@@ -94,9 +125,9 @@ a{
 
 .menu a:hover{
     text-decoration: none;
-    color: blue;
-    background-color: brown ;
-    font-size: 20px;
+    color: blueviolet;
+    background-color: blanchedalmond;
+    font-size: 25px;
 }
 /* houver= passar o mouse em cima */
 
@@ -108,16 +139,74 @@ a:hover{
 
 
 footer{
-    background-color: aquamarine;
-    border-top: solid 5px green;
+    background-color: lightcoral;
+    border-radius: 20px;
     text-align: center;
 }
 
 
 .rodapé{
-    height: 150px;
+    height: 120px;
     margin-top: 7px;
     border-radius: 100%;
+}
+
+
+.carodape{
+    font-size: 25px;
+    border-top: 5px;
+    text-align: top;
+}
+
+
+.rod{
+    color: darkblue;
+    text-align: left;
+    text-decoration: none;
+}
+
+.rod a {
+    text-decoration: none;
+}
+
+.rod a:hover{
+    color: lightblue;
+}
+
+.torta{
+    background-color:lightgreen;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+
+.torta li{
+    font-size: 20px;
+    color:white;
+}
+
+.bolacha {
+    height: 120px;
+    float: right;
+    float: inline-start;
+    border-radius: 10px;
+    border-left: solid 5px goldenrod;
+    margin-right: 420px;
+    margin-top: 80px;
+}
+
+.alfajor{
+    background-color:brown;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+
+.alfajor li{
+    color: white;
+    font-size: 20px;
 }
 
 /* "border" = borda
