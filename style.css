@@ -49,6 +49,10 @@ h1{
     color:black;
 }
 
+h1:hover{
+    color:bisque;
+}
+
 
 nav{ 
     /* A tag nav remete a navegação dentro do site ou 
@@ -98,6 +102,10 @@ p{
 }
 
 
+ul li:hover{
+    color: black;
+}
+
 /* ul{
     text-align: left;
     color:lightskyblue;cor do ul(lista) 
@@ -108,6 +116,9 @@ p{
     font-size: 30px;
 }
 
+.receita:hover{
+    color:darkslateblue;
+}
 
 .limão {
     height: 350px;
@@ -126,7 +137,7 @@ a{
 .menu a:hover{
     text-decoration: none;
     color: blueviolet;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 210, 217);
     font-size: 25px;
 }
 /* houver= passar o mouse em cima */
@@ -156,6 +167,11 @@ footer{
     font-size: 25px;
     border-top: 5px;
     text-align: top;
+}
+
+.carodape:hover{
+    font-size: 27px;
+    color: lightcyan;
 }
 
 
@@ -205,6 +221,66 @@ footer{
 
 
 .alfajor li{
+    color: white;
+    font-size: 20px;
+}
+
+
+.chocolate {
+    float: right;
+    display: flex;
+    margin-right: 120px;
+    height: 200px;
+    border-right: solid 5px brown;
+    border-radius: 20px;
+}
+
+.bolinho {
+    background-color:burlywood;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.bolinho li{
+    color: white;
+    font-size: 20px;
+}
+
+
+.bolo {
+    background-color:chocolate;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.bolo li{
+    color: white;
+    font-size: 20px;
+}
+
+.frango {
+    background-color: goldenrod;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.frango li{
+    color: white;
+    font-size: 20px;
+}
+
+
+.pizza {
+    background-color: coral;
+    border-radius: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.pizza li{
     color: white;
     font-size: 20px;
 }
