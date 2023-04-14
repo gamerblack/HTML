@@ -1,12 +1,11 @@
 body{
-
-    background:lightgrey;
+    background:peachpuff;
 
     }
 
 
 header{
-    background-color:dimgrey;
+    background-color:lightcoral;
     border-radius: 10px;
     /* background-image:url(papel.avif); */
     /*O que caralhos eu faço agora?
@@ -32,10 +31,18 @@ header{
 
 }
 
+/* "border" = borda
+    Podem ser escolhidos cor, tamanho e arredondamento(radius)
+    com "px" no final sinalizado os pixels
 
-/* header{
-    text-align: center;
-} */
+
+    essa tag pode ser resumida de forma a executar 3 cod em 1 como:
+
+    border: solid 10px blueviolet
+    
+
+    (Apenas algumas tags fazem isso)*/
+
 
 h1{
     display: inline-flex;
@@ -46,21 +53,33 @@ h1{
     /* font-family: 'Playfair Display', serif; */
     font-size: 40px;
     text-align: left;
-    color:black;
+    color:lavenderblush;
 }
 
-h1:hover{
-    color:bisque;
-}
+/* "font-family:" é usado para mudar a fonte
+      são usadas virgulas para segundas, terceiras e quartas opções
+                 
+
+        caso a pessoa não á tenha no computador
+          recomendado usar: "fonts.google.com" para ver fonts online
+
+
+    *Ícone do canto
+
+         HTML: Dentro da tag "head"
+
+        CSS: No elemento desejado ou em "body" para o site inteiro
+*/
 
 
 nav{ 
-    /* A tag nav remete a navegação dentro do site ou 
-    abrindo para um site diferente */
     background-size: 40px;
     background-color: pink;
     margin-top: 70px;
 }
+
+    /* A tag nav remete a navegação dentro do site ou 
+    abrindo para um site diferente */
 
 
 nav ul li{
@@ -89,9 +108,8 @@ nav ul li{
     /* padding-left: 40px; */
 }
 
-h2{
-    text-align: left;/*alinhamento de texto*/
-    color:lightseagreen;/*cor do h2 (titulo secundário)*/
+.titulo{
+    color: coral;
  }
 
 
@@ -106,14 +124,19 @@ ul li:hover{
     color: black;
 }
 
-/* ul{
+ul{
     text-align: left;
-    color:lightskyblue;cor do ul(lista) 
-}*/
+    color:lightskyblue; /* cor do ul(lista)  */
+}
 
 .receita {
     color:darkslateblue;
     font-size: 30px;
+}
+
+.receita a{
+    text-decoration:none;
+    color: lightcoral;
 }
 
 .receita:hover{
@@ -121,13 +144,14 @@ ul li:hover{
 }
 
 .limão {
-    height: 350px;
+    height: 320px;
     float:right;
-    float: inline-start;
+    display: inline-flex;
     border-radius: 40px;
     border-right: solid 5px greenyellow;
-    margin-right: 30px;
-    margin-top: 100px;
+    margin-right: 460px;
+    margin-top: 250px;
+    /* margin-left: 70px; */
 }
 
 a{
@@ -149,46 +173,6 @@ a:hover{
 }
 
 
-footer{
-    background-color: lightcoral;
-    border-radius: 20px;
-    text-align: center;
-}
-
-
-.rodapé{
-    height: 120px;
-    margin-top: 7px;
-    border-radius: 100%;
-}
-
-
-.carodape{
-    font-size: 25px;
-    border-top: 5px;
-    text-align: top;
-}
-
-.carodape:hover{
-    font-size: 27px;
-    color: lightcyan;
-}
-
-
-.rod{
-    color: darkblue;
-    text-align: left;
-    text-decoration: none;
-}
-
-.rod a {
-    text-decoration: none;
-}
-
-.rod a:hover{
-    color: lightblue;
-}
-
 .torta{
     background-color:lightgreen;
     border-radius: 20px;
@@ -200,16 +184,27 @@ footer{
 .torta li{
     font-size: 20px;
     color:white;
+    line-height: 40px;
+}
+
+.torta p{
+    text-align:center;
+    color: green;
+}
+
+.torta p:hover{
+    text-align:center;
+    color: black;
 }
 
 .bolacha {
-    height: 120px;
+    height: 110px;
     float: right;
-    float: inline-start;
+    display: inline-flex;
     border-radius: 10px;
     border-left: solid 5px goldenrod;
-    margin-right: 420px;
-    margin-top: 80px;
+    margin-right: 920px;
+    margin-top: 50px;
 }
 
 .alfajor{
@@ -225,12 +220,23 @@ footer{
     font-size: 20px;
 }
 
+.alfajor p{
+    text-align:center;
+    color: bisque;
+}
+
+.alfajor p:hover{
+    text-align:center;
+    color: black;
+}
+
 
 .chocolate {
     float: right;
-    display: flex;
-    margin-right: 120px;
-    height: 200px;
+    display: inline-flex;
+    margin-right: 500px;
+    margin-top: 0px;
+    height: 320px;
     border-right: solid 5px brown;
     border-radius: 20px;
 }
@@ -248,6 +254,16 @@ footer{
 }
 
 
+.bolinho p{
+    text-align:center;
+    color: brown;
+}
+
+.bolinho p:hover{
+    text-align:center;
+    color: black;
+}
+
 .bolo {
     background-color:chocolate;
     border-radius: 20px;
@@ -260,6 +276,16 @@ footer{
     font-size: 20px;
 }
 
+.bolo p{
+    text-align:center;
+    color: burlywood;
+}
+
+.bolo p:hover{
+    text-align:center;
+    color: black;
+}
+
 .frango {
     background-color: goldenrod;
     border-radius: 20px;
@@ -270,6 +296,16 @@ footer{
 .frango li{
     color: white;
     font-size: 20px;
+}
+
+.frango p{
+    text-align:center;
+    color: lightgoldenrodyellow;
+}
+
+.frango p:hover{
+    text-align:center;
+    color: black;
 }
 
 
@@ -285,30 +321,51 @@ footer{
     font-size: 20px;
 }
 
-/* "border" = borda
-    Podem ser escolhidos cor, tamanho e arredondamento(radius)
-    com "px" no final sinalizado os pixels
+.pizza p{
+    text-align:center;
+    color: lightgoldenrodyellow;
+}
+
+.pizza p:hover{
+    text-align:center;
+    color: black;
+}
+
+footer{
+    background-color: dimgray;
+    border-radius: 20px;
+    text-align: center;
+}
 
 
-    essa tag pode ser resumida de forma a executar 3 cod em 1 como:
-
-    border: solid 10px blueviolet
-    
-
-    (Apenas algumas tags fazem isso)*/
-
-
-
-    /* "font-family:" é usado para mudar a fonte
-      são usadas virgulas para segundas, terceiras e quartas opções
-                 
-
-        caso a pessoa não á tenha no computador
-          recomendado usar: "fonts.google.com" para ver fonts online
+.rodapé{
+    float:center;
+    display:inline-flex;
+    height: 120px;
+    margin-top: 7px;
+    border-radius: 100%;
+}
 
 
-    *Ícone do canto
+.carodape{
+    font-size: 30px;
+    border-top: 5px;
+    text-align: top;
+    color: lavenderblush;
+}
 
-     HTML: Dentro da tag "head"
+.rod{
+    color: pink;
+    text-align: left;
+    text-decoration: none;
+}
 
-     CSS: No elemento desejado ou em "body" para o site inteiro*/
+.rod a {
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 30px:
+}
+
+.rod a:hover{
+    color: cyan;
+}
