@@ -109,8 +109,16 @@ nav ul li{
 }
 
 .titulo{
-    color: coral;
+    font-size: 40px;
+    color: darkcyan;
  }
+
+
+.sumario {
+    font-size: 40px;
+    color: rgb(147, 147, 252);
+    margin-left: 7%;
+}
 
 
 p{
@@ -143,16 +151,6 @@ ul{
     color:darkslateblue;
 }
 
-.limão {
-    height: 320px;
-    float:right;
-    display: inline-flex;
-    border-radius: 40px;
-    border-right: solid 5px greenyellow;
-    margin-right: 460px;
-    margin-top: 250px;
-    /* margin-left: 70px; */
-}
 
 a{
     color:rgb(80, 24, 133);/* cor do a(link )*/
@@ -197,14 +195,26 @@ a:hover{
     color: black;
 }
 
+.limão {
+    height: 400px;
+    float:right;
+    display: inline-flex;
+    border-radius: 40px;
+    border-right: solid 5px greenyellow;
+    margin-right: 20%;
+    margin-top: 10%;
+    /* margin-left: 70px; */
+}
+
+
 .bolacha {
     height: 110px;
     float: right;
     display: inline-flex;
     border-radius: 10px;
     border-left: solid 5px goldenrod;
-    margin-right: 920px;
-    margin-top: 50px;
+    margin-right: 50%;
+    margin-top: 3%;
 }
 
 .alfajor{
@@ -234,7 +244,7 @@ a:hover{
 .chocolate {
     float: right;
     display: inline-flex;
-    margin-right: 500px;
+    margin-right: 27%;
     margin-top: 0px;
     height: 320px;
     border-right: solid 5px brown;
@@ -348,8 +358,7 @@ footer{
 
 
 .carodape{
-    font-size: 30px;
-    border-top: 5px;
+    font-size: 40px;
     text-align: top;
     color: lavenderblush;
 }
@@ -361,9 +370,8 @@ footer{
 }
 
 .rod a {
-    font-size: 20px;
     text-decoration: none;
-    font-size: 30px:
+    font-size: 25px;
 }
 
 .rod a:hover{
