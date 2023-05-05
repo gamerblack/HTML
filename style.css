@@ -124,6 +124,9 @@ nav ul li a{
 }
 /* houver= passar o mouse em cima */
 
+main{
+    padding-left: 5%;
+} 
 
 .vtc {
     line-height: 40px;
@@ -167,6 +170,7 @@ ul{
 .receita {
     color:darkslateblue;
     font-size: 30px;
+    list-style: disc;
 }
 
 .receita a{
@@ -191,6 +195,7 @@ a:hover{
 
 
 .torta{
+    list-style: circle;
     background-color: lightgreen;
     border-radius: 20px;
     width: 50%;
@@ -199,6 +204,7 @@ a:hover{
 
 
 .torta li{
+    list-style: circle;
     font-size: 20px;
     color:white;
     line-height: 40px;
@@ -251,7 +257,7 @@ a:hover{
 
 .alfajor p{
     text-align:center;
-    color: bisque;
+    color:goldenrod;
 }
 
 .alfajor p:hover{
@@ -396,5 +402,4 @@ footer{
 .rod a:hover{
     color: cyan;
 }
-
 
