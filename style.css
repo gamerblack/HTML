@@ -200,11 +200,11 @@ a:hover{
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
+    list-style: circle;
 }
 
 
 .torta li{
-    list-style: circle;
     font-size: 20px;
     color:white;
     line-height: 40px;
@@ -243,6 +243,7 @@ a:hover{
 }
 
 .alfajor{
+    list-style: circle;
     background-color:brown;
     border-radius: 20px;
     width: 50%;
@@ -277,6 +278,7 @@ a:hover{
 }
 
 .bolinho {
+    list-style: circle;
     background-color:burlywood;
     border-radius: 20px;
     width: 50%;
@@ -300,6 +302,7 @@ a:hover{
 }
 
 .bolo {
+    list-style: circle;
     background-color:chocolate;
     border-radius: 20px;
     width: 50%;
@@ -322,6 +325,7 @@ a:hover{
 }
 
 .frango {
+    list-style: circle;
     background-color: goldenrod;
     border-radius: 20px;
     width: 50%;
@@ -345,6 +349,7 @@ a:hover{
 
 
 .pizza {
+    list-style: circle;
     background-color: coral;
     border-radius: 20px;
     width: 50%;
@@ -367,6 +372,7 @@ a:hover{
 }
 
 footer{
+    list-style: circle;
     background-color: dimgray;
     border-radius: 20px;
     text-align: center;

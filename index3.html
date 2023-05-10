@@ -3,139 +3,180 @@
     <html lang="pt-br">
 
 
-    <head>
-        <meta charset="utf=8">
-        <!-- Dá a possibilidade de mudar a lingua do site
-        ele informa o google tradutor -->
-        
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <head>
+            <meta charset="utf-8">
+            <!-- Dá a possibilidade de mudar a lingua do site
+            ele informa o google tradutor -->
+            
+            <link rel="stylesheet" href="reset.css">
 
-        <!--body- corpo do ite, seu conteúdo e etc...
+            <link rel="stylesheet" href="style.css">
+
+            <!--body- corpo do ite, seu conteúdo e etc...
             head- cabeça do site ou cabeçalho, tbm se coloca o menu ou especificações do que vc procura.-->
 
-    </head>
+        </head>
 
         <body> 
+
             <header>
-                <img class="login" src="login-cupcake's.webp" alt="Foto Perfil">
-                <!-- adicione height="" para almentar ou diminuir a imagem
-                pode ser usado no style como nesse caso-->
 
-                 <h1>Queens</h1>
+                <section class="introdução">
 
-                 <!-- "font-family:" é usado para mudar a fonte
-                 são usadas virgulas para segundas, terceiras e quartas opções
-                 
+                    <img class="login" src="login-cupcake's.webp" alt="Foto Perfil">
+                    <!-- adicione height="" para almentar ou diminuir a imagem
+                    pode ser usado no style como nesse caso-->
 
-                 caso a pessoa não á tenha no computador
-                 recomendado usar: "fonts.google.com" para ver fonts online
+                    <h1>Queens</h1>
+
+                    <!-- "font-family:" é usado para mudar a fonte
+                    são usadas virgulas para segundas, terceiras e quartas opções
+                        
+
+                    caso a pessoa não á tenha no computador
+                    recomendado usar: "fonts.google.com" para ver fonts online
 
 
-                 *Ícone do canto
+                    *Ícone do canto
 
-                 HTML: Dentro da tag "head"
+                    HTML: Dentro da tag "head"
 
-                 CSS: No elemento desejado ou em "body" para o site inteiro
-                -->
+                    CSS: No elemento desejado ou em "body" para o site inteiro-->
+                    
 
-                <nav>
-                 <ul>
-                    <li class="menu"><a href="index.html"> Início</a></li>
-                    <li class="menu"><a href="index4.html"> Sumário</a></li>
-                    <li class="menu"><a href="index2.html"> Doces</a></li>
-                    <li class="menu"><a href="index3.html"> Salgados</a></li>
-                    <!-- 
+                    <nav>
+                        <ul>
+                            <li class="menu"><a href="index.html"> Início</a></li>
+                            <li class="menu"><a href="index4.html"> Sumário</a></li>
+                            <li class="menu"><a href="index2.html"> Doces</a></li>
+                            <li class="menu"><a href="index3.html"> Salgados</a></li>
+                            <!-- Caso queira inserir img's o cod fica:
 
-                    Caso queira inserir img's o cod fica:
+                            <li><a href="linkpag"><img src="linkimg">Palavras</img></a></li> -->
 
-                    <li><a href="linkpag"><img src="linkimg">Palavras</img></a></li> 
+                        </ul>
 
-                    -->
-                </ul>
-                </nav>
+                    </nav>
+
+                </section>
 
             </header>
+            
+            <main>
+                    
 
-            <h2 class="titulo">Salgados</h2>
-            <!-- A tag "Div" divide elementos dentro do texto, 
-                podem ser editados no style mais tarde -->
+                <section>
 
-    <p class="apresentação">
-        Eu nunca fiz questão de estar aqui Muito menos participa rkjrhkfghfdhv mcxbjhvhfd bvnbmnfd bcvkhfdj hcx bvnbchv nfvhfxckgh relghouir jhgkugkncx, nbgdfhkdfahkh fkjgnckhb kdhhgeo ij fhhrih ufdlkfklk j vpok4 fjioer
-    </p>
+                    <h2 class="titulo">Receitas</h2>
+                    <!-- A tag "Div" divide elementos dentro do texto, 
+                    podem ser editados no style mais tarde -->
 
-    <li class="receita"> Torta de Frango</li>
-    <p>
-        <ul class="frango">
-            <p class="frango">INGREDIENTES</p>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-        </ul>
+                    <p class="apresentação">
+                        Eu nunca fiz questão de estar aqui Muito menos participa rkjrhkfghfdhv mcxbjhvhfd bvnbmnfd bcvkhfdj hcx bvnbchv nfvhfxckgh relghouir jhgkugkncx, nbgdfhkdfahkh fkjgnckhb kdhhgeo ij fhhrih ufdlkfklk j vpok4 fjioer
+                    </p>
 
-        <ul class="frango">
-            <p class="frango">MODO DE PREPARO:</p>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-        </ul>
-    </p>
+                </section>
 
-    <li class="receita"> Torrada de Pizza</li>
-    <p>
-        <ul class="pizza">
-            <p class="pizza">INGREDIENTES</p>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-        </ul>
-   
+                <section class="vtc">
+                        
+                    <ul class="receita">
 
-        <ul class="pizza">
-            <p class="piza">MODO DE PREPARO:</p>
-            <p></p>
-            <li></li>
-            <p></p>
-            <li></li>
-        </ul>
-    </p>
-    <!-- Podem ser alterados o tipo de lista na tag "lit-style" -->
-</ul>
+                        <li class="receita"> Torta de Frango
+                            <p>
+                                <ul class="frango">
+                                    <p class="frango">INGREDIENTES</p>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                </ul>
 
-<footer>
-    <img class="rodapé" src="login-cupcake's.webp" alt="2 Cupcakes (Perfil)">
+                                <ul class="frango">
+                                    <p class="frango">MODO DE PREPARO:</p>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
 
-    <h4 class="carodape">Queens</h4>
+                                </ul>
 
-    <ul>
-        <li class="rod"><a class="rod" href="https://github.com/gamerblack"> Github</a></li>
+                            </p>
 
-        <li class="rod"><a class="rod" href="https://www.tudogostoso.com.br/"> TudoGostoso</a></li>
-    </ul>
-</footer>
-</body>
-</html>
+                        </li>
+
+                        
+
+                        <li class="receita"> Torrada de Pizza
+                            <p>
+                                <ul class="pizza">
+                                    <p class="pizza">INGREDIENTES</p>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                
+                                </ul>
+                            
+
+                                <ul class="pizza">
+                                    <p class="piza">MODO DE PREPARO:</p>
+                                    <p></p>
+                                    <li></li>
+                                    <p></p>
+                                    <li></li>
+                                </ul>
+
+                            </p>
+
+                        </li>
+
+                    </ul>
+                        
+                </section>
+                <!-- Podem ser alterados o tipo de lista na tag "lit-style" -->
+
+
+            </main>
+
+
+        <footer>
+
+            <img class="rodapé" src="login-cupcake's.webp" alt="2 Cupcakes (Perfil)">
+
+            <h4 class="carodape">Queens</h4>
+
+            <ul>
+                <li class="rod"><a class="rod" href="https://github.com/gamerblack"> Github</a></li>
+
+                <li class="rod"><a class="rod" href="https://www.tudogostoso.com.br/"> TudoGostoso</a></li>
+
+            </ul>
+
+        </footer>
+        
+    </body>
+
+    </html>
+    <!-- width = largura -->
+
+    <!-- a tag "Footer" se diz respeito ao rodapé, parte de baixo do texto-->
