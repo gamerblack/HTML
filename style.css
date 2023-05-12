@@ -9,13 +9,6 @@ body{
 .introdução{
     background-color:lightcoral;
     border-radius: 10px;
-    /* background-image:url(papel.avif); */
-    /*O que caralhos eu faço agora?
-    1 adição de imagem (alterado)
-    *2 repetição da imagem (retirado)
-    3 posição: centro
-    4 ?????? não tenho ideia
-    5 formatação(alinhação) de texto*/
 }
 
 
@@ -200,7 +193,9 @@ a:hover{
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
-    list-style: circle;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
 }
 
 
@@ -208,6 +203,7 @@ a:hover{
     font-size: 20px;
     color:white;
     line-height: 40px;
+    list-style: circle;
 }
 
 .torta p{
@@ -248,6 +244,9 @@ a:hover{
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
 }
 
 
@@ -283,6 +282,9 @@ a:hover{
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
 }
 
 .bolinho li{
@@ -307,6 +309,9 @@ a:hover{
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
 }
 
 .bolo li{
@@ -330,6 +335,9 @@ a:hover{
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
 }
 
 .frango li{
@@ -354,6 +362,9 @@ a:hover{
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
 }
 
 .pizza li{
@@ -376,6 +387,9 @@ footer{
     background-color: dimgray;
     border-radius: 20px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
 
 
