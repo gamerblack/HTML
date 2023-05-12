@@ -7,6 +7,7 @@ body{
 
 
 .introdução{
+    
     background-color:lightcoral;
     border-radius: 10px;
 }
@@ -43,9 +44,9 @@ h1{
     margin-top: 80px;
     margin-left: 30px;
     font:italic;
-    font-family:url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+    font-family: 'Dancing Script', 'cursive';
     /* font-family: 'Playfair Display', serif; */
-    font-size: 40px;
+    font-size: 80px;
     text-align: left;
     color:lavenderblush;
 }
@@ -129,7 +130,9 @@ main{
 .titulo{
     font-size: 40px;
     color: darkcyan;
- }
+    margin-top: 10px;
+}
+
 
 
 .sumario {
@@ -140,6 +143,9 @@ main{
 
 .apresentação {
     line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 30px;
 }
 
 
@@ -164,6 +170,9 @@ ul{
     color:darkslateblue;
     font-size: 30px;
     list-style: disc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
 }
 
 .receita a{
@@ -189,7 +198,7 @@ a:hover{
 
 .torta{
     list-style: circle;
-    background-color: lightgreen;
+    background-color:lightgreen;
     border-radius: 20px;
     width: 50%;
     font-size: 20px;
@@ -201,19 +210,22 @@ a:hover{
 
 .torta li{
     font-size: 20px;
-    color:white;
+    color:darkgoldenrod;
     line-height: 40px;
     list-style: circle;
 }
 
+.torta li:hover{
+    color:darkgreen;
+}
+
 .torta p{
     text-align:center;
-    color: green;
+    color: rgb(1, 112, 1);
 }
 
 .torta p:hover{
-    text-align:center;
-    color: black;
+    color: gold;
 }
 
 .limão {
@@ -245,7 +257,7 @@ a:hover{
     width: 50%;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-left: 30px;
 }
 
@@ -255,14 +267,21 @@ a:hover{
     font-size: 20px;
 }
 
+
+.alfajor li:hover{
+    color: orange;
+}
+
+
 .alfajor p{
     text-align:center;
     color:goldenrod;
 }
 
+
 .alfajor p:hover{
     text-align:center;
-    color: black;
+    color: gold;
 }
 
 
@@ -283,12 +302,12 @@ a:hover{
     width: 50%;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-left: 30px;
 }
 
 .bolinho li{
-    color: white;
+    color: chocolate;
     font-size: 20px;
 }
 
@@ -310,7 +329,7 @@ a:hover{
     width: 50%;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-left: 30px;
 }
 
@@ -336,14 +355,21 @@ a:hover{
     width: 50%;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-left: 30px;
 }
 
+
 .frango li{
-    color: white;
+    color:bisque;
     font-size: 20px;
 }
+
+
+.frango li:hover{
+    color:red;
+}
+
 
 .frango p{
     text-align:center;
@@ -363,7 +389,7 @@ a:hover{
     width: 50%;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-left: 30px;
 }
 
@@ -383,12 +409,12 @@ a:hover{
 }
 
 footer{
-    list-style: circle;
+    list-style: disc;
     background-color: dimgray;
     border-radius: 20px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-left: 20px;
 }
 
@@ -409,9 +435,11 @@ footer{
 }
 
 .rod{
+    margin-left: 20px;
     color: pink;
     text-align: left;
     text-decoration: none;
+    list-style: disc;
 }
 
 .rod a {
@@ -423,3 +451,9 @@ footer{
     color: cyan;
 }
 
+
+.fim{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
